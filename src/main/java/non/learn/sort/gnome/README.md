@@ -10,11 +10,11 @@ Gnome Sort is a very simple sorting algorithm that works like a Garden Gnome sor
 ## Key Characteristics
 - Time Complexity:
   - Best case: O(n)
-    - This happens when the input list is already sorted. The algorithm simply traverses the list from left to right exactly once without making any swaps.
+    - This happens when the input list is **already sorted**. The algorithm simply traverses the list from left to right exactly once without making any swaps.
   - Average case: O(n²)
-    - For a randomly ordered list, the algorithm spends a quadratic amount of time bouncing back and forth to insert elements into their correct positions.
+    - For a **randomly ordered** list, the algorithm spends a quadratic amount of time bouncing back and forth to insert elements into their correct positions.
   - worst case: O(n²)
-    - This happens when the input list is sorted in reverse order. The algorithm must move each element all the way to the beginning of the list, requiring a nested-loop equivalent of swaps.
+    - This happens when the input list is **sorted in reverse order**. The algorithm must move each element all the way to the beginning of the list, requiring a nested-loop equivalent of swaps.
 - Space Complexity: O(n)
   - The algorithm operates directly on the input list numbers, which contains N elements. No additional data structures are created that scale with the input size.
 - Auxiliary Space Complexity: O(1)
